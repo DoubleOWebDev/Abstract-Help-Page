@@ -18,6 +18,7 @@ header{
     height: 100px;
     width: 100%;
     font-size: 2rem;
+    padding-top: 2%;
 }
 
 li , a  {
@@ -30,7 +31,7 @@ li , a  {
 header nav {
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    
     flex-wrap: wrap;
 }
 
@@ -49,8 +50,17 @@ header nav section button {
     border: 1px solid white;
     border-radius: 15px;
     color: #ffff;
-    padding: 0.1em 0.4em;
+    padding: 0.2em 0.5em;
     background-color: #1e0e13;
+}
+
+.btn-Two {
+    background-color: #a04b66;
+}
+
+.btn-Two:hover {
+    background-color: white;
+    color: black;
 }
 
 .vert-line-brFT {
@@ -58,6 +68,46 @@ header nav section button {
     padding-right: 0.1em;
 }
 
+.vert-line-brFT:hover {
+    color: rgb(135, 135, 135);
+}
+
 .vert-line-brSD {
     padding-left: 0.5em;
+}
+
+.vert-line-brSD:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    background-color: #fad1dd;
+}
+
+input   {
+    padding: 1em 20em;
+    border-radius: 20px;
+}
+
+.container h1 {
+    font-size: 6rem;
+    margin-bottom: 2%;
+}
+
+.size {
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size section {
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
 }
